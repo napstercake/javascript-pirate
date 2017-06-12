@@ -1,0 +1,29 @@
+<a href="./">Go back</a>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>
+                Hoisting
+            </h1>
+            <p>
+                Variable declarations and functions declarations are process 
+                before any code is executed, so declare a variable o function
+                anywhere in the code is equivalent to the declare it at the
+                top.
+            </p>
+            <h4>Sample 1</h4>
+            <p>
+                In this code, the first line is printing 'undefined' because
+                the hoisting only puts the declaration of the variable at 
+                the top, but the initialization keeps at the same line of code.
+            </p>    
+            <code>
+                console.log(definedLater); // undefinded
+                var definedLater;
+                definedLater = 'I am defined';
+            </code>
+            
+        </div>
+    </div>
+</div>
